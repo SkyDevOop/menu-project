@@ -1,0 +1,78 @@
+.color-body{
+  background-color: #f8f8f8;
+  min-height:100vh
+}
+.font{
+  font-family: 'Mukta', sans-serif ;
+}
+.logo-menu{
+  width: 120px;
+}
+.my-NavBar-toggle:focus{
+  box-shadow: none !important;
+}
+.title{
+  color: #224f61;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 60px;
+  width: fit-content;
+  position: relative;
+}
+
+.title::before{
+  content: '';
+  position: absolute;
+  border-radius: 20px;
+  height: 3px;
+  bottom: 0;
+  width: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #e27647;
+}
+.btn-search{
+  background-color: #b45b35;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 0 9px;
+  border-radius: 10px;
+  transition: .3s background-color;
+}
+.btn-search:hover{
+  background-color: #e27647;
+}
+.food-list{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.my-btn{
+  color: #8c8c8c;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  margin:5px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: .3s background-color, color;
+}
+.my-btn:hover{
+  color: white;
+  background-color: #b45b35;
+}
+.img-item{
+  height: 180px;
+  border-radius: 5px;
+}
+.item-description{
+  color: #8c8c8c;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.title-list{
+  color: #b45b35;
+  font-weight: bold;
+}
